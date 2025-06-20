@@ -1,3 +1,7 @@
-# A simple function
-def get_welcome_message(name):
-    return "Hello " + name
+# Get all even numbers from a list
+def get_evens(numbers):
+    evens = []
+    for num in numbers:
+        if num % 2 == 0:
+            evens.append(num)
+    return evens
