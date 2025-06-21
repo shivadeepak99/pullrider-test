@@ -1,0 +1,3 @@
+rules:
+  - "All Python functions must have a docstring."
+  - "Avoid using print() statements; use a proper logger instead."
