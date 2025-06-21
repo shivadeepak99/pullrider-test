@@ -1,8 +1,5 @@
-def get_even_numbers(max_number):
-    """Returns a list of even numbers up to max_number."""
-    even_numbers = []
-    for i in range(max_number + 1):
-        if i % 2 == 0:
-            even_numbers.append(i)
-    return even_numbers
-#
+def calculate_sum(a, b):
+    # This function has no docstring and uses print
+    total = a + b
+    print(f"The total is: {total}")
+    return total
