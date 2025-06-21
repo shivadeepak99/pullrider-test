@@ -5,8 +5,11 @@ def get_evens(numbers):
         if num % 2 == 0:
             evens.append(num)
     return evens
+
+
 def calculate_sum(a, b):
-    # This function has no docstring and uses print
+    """Calculates and returns the sum of two numbers."""
+   
     total = a + b
     print(f"The total is: {total}")
     return total
