@@ -1,8 +1,18 @@
 # greeter.py
 
-def greet(name):
-  # This works, but it's a bit old-fashioned.
-  message = "Hello, " + name
-  print(message)
+def greet(name: str) -> str:
+    """
+    Generates a personalized greeting.
 
-greet("World")
+    Args:
+        name: The name of the person to greet.
+
+    Returns:
+        A greeting string.
+    """
+    return f"Hello, {name}!"
+
+# Example usage:
+if __name__ == "__main__":
+    greeting = greet("Developer")
+    print(greeting)
